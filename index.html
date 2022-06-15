@@ -9,7 +9,76 @@
 </head>
 
 <body>
-    <h1>web en githubpages xx </h1>
+    <style>
+            .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.105);
+            transition: 0.1s;
+            width: 20%;
+            border-radius: 5px;
+            float: left;
+            margin: 2%;
+        }
+        
+        .cardx2 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 30%;
+            border-radius: 5px;
+            float: left;
+            margin: 2%;
+        }
+        
+        .card:hover,
+        .cardx2:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            transform: translate(-10px, -10px);
+        }
+        
+        img {
+            border-radius: 5px 5px 0 0;
+        }
+        
+        .container {
+            padding: 2px 16px;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            [class*="card"] {
+                width: 90%;
+            }
+    </style>
+    <h2>Tarjetas redondeadas</h2>
+
+
+    <div class="cardx2">
+        <img src="3.jpg" alt="Avatar" style="width:100%">
+
+        <div class="container">
+            <h4><b>Jane Doe</b></h4>
+            <p>Interior Designer</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="1.jpg" alt="Avatar" style="width:100%">
+        <div class="container">
+            <h4><b>Jane Doe</b></h4>
+            <p>Interior Designer</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="1.jpg" alt="Avatar" style="width:100%">
+        <div class="container">
+            <h4><b>Jane Doe</b></h4>
+            <p>Interior Designer</p>
+        </div>
+    </div>
+
+
+
+
 </body>
 
 </html>
